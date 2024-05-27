@@ -1,0 +1,98 @@
+
+.home
+{
+   
+    float: left;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 20px;
+    
+    
+}
+
+#home1
+{
+   font-size: 50px; 
+  
+}
+#bar
+{
+   font-size: 50px; 
+  
+}
+#left
+{
+   font-size: 50px; 
+  
+}
+#right
+{
+   font-size: 50px; 
+  
+}
+
+.col2
+{
+   
+    float: left;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 20px;  
+    
+}
+
+#search
+{
+   font-size: 50px; 
+  
+}
+#close
+{
+   font-size: 50px; 
+  
+}
+#refresh
+{
+   font-size: 50px; 
+  
+}
+#trash
+{
+   font-size: 50px; 
+  
+}
+
+.col3
+{
+   
+    float: left;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 20px;
+    
+}
+
+#male
+{
+   font-size: 50px; 
+  
+}
+#car
+{
+   font-size: 50px; 
+  
+}
+#truck
+{
+   font-size: 50px; 
+  
+}
+#plane
+{
+   font-size: 50px; 
+  
+}
+
+
+
+

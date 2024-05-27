@@ -1,0 +1,73 @@
+#header
+{
+    background: linear-gradient();
+    height: 40px;
+    width: 100%;
+    padding: 10px;
+    border-right: 20px;
+    
+}
+#left_bar
+{
+    display: inline;
+    
+    
+}
+.right_bar
+{
+    float: right;
+    
+    padding-left:  20px;
+    padding-right: 20px;
+    text-decoration: none;
+}
+.right_bar:hover
+{
+    background-color: #d69f41;
+    height: 30px;
+    
+    
+}
+
+
+
+.row1col
+{
+    height: 300px;
+    width: 20%;
+    background:linear-gradient();
+    margin-left: 22px;
+    float: left;
+    border-top-right-radius: 30px;
+    
+    overflow: hidden;
+    
+}
+img
+{
+    height: 120px;
+    width: 100%;
+}
+
+
+.food_name
+{
+   font-size: 8px;
+   display: inline;
+}
+.rate
+{
+    font-size: 8px;
+    float: right;
+    padding-right: 10px;
+}
+.food_name:hover
+{
+    font-size: 20px;
+    color: blueviolet;
+}
+.rate:hover
+{
+    font-size: 20px;
+    color: blueviolet;
+}

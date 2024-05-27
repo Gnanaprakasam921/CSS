@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <title>Fieldset and Legend</title>
+    </head>
+    <style>
+        fieldset{
+            border: 3px solid red;
+            margin-bottom: 25px;
+            border-radius: 15px;
+            padding-left: 40px;
+
+        }
+        legend{
+            background-color: aquamarine;
+            padding: 5px;
+            border-radius: 5px;
+            padding-left:40px;
+
+        }
+        #submit:hover
+        {
+            text-align: center;
+            color: aquamarine;
+            
+        }
+    </style>
+
+    <body>
+          <form method="post">
+                <fieldset>
+            <legend>LoginDetail</legend>
+            
+            <p>
+                <label for="name">Name</label>
+            </p>
+            <input type="text"  name="Name" id="name" placeholder="ID" size="15"><br>
+            <p>
+                <label for="password">Pasword</label>
+            </p>
+            <input type="password" name="=password" id="password" placeholder="Password" size="10"><br> 
+        </fieldset>
+        <fieldset>
+            <legend>FamilyDetails</legend>
+            <p>
+                <label for="fname">FatherName</label>
+                <input type="text" name="Fname" id="fname">
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Commeds</legend>
+            <p>
+                <label for="Comments">Comments</label>
+            </p>
+            <textarea name="Comments" id="comments" cols="35" rows="5" placeholder="Enter Comments"></textarea>
+        </fieldset>
+            <input id="submit" type="submit"  value="Login">
+        </form>
+    </body>
+</html>

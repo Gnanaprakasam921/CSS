@@ -1,0 +1,58 @@
+#header
+{
+    height: 40px;
+    width: 100%;
+    background-color: black;
+   
+}
+#logo
+{
+    padding-top: 10px;
+    padding-left: 20px;
+    color: white;
+    overflow: hidden;
+}
+#sync
+{
+    display: inline;
+    color: white;
+    font-size: 25px;
+}
+ul
+{
+    display: inline;
+    list-style: none;
+    padding-left: 200px;
+    
+   
+}
+li{
+    padding-top: 50px;
+    padding-left: auto;
+    padding: 5px;
+    overflow: hidden;
+    font-size: 14px;
+    display: inline;
+    color: rgb(241, 237, 237);
+    
+}
+li:hover
+{
+    
+
+    background-color: rgb(121, 123, 125);
+    height: 100px;
+}
+
+#button
+{
+    height: 30px;
+    border-radius: 2px;
+    background-color: blue;
+
+}
+#button:hover
+{
+    background: green;
+    color: black;
+}

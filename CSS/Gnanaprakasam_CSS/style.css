@@ -1,0 +1,483 @@
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav
+{
+    height: 80px;
+    width: 100%;
+   
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    /* position: fixed; */
+    position: fixed;
+    margin-left: 100px;
+    
+}
+nav ul
+{
+    display: flex;
+    list-style-type: none;
+    float: left;
+    
+}
+nav ul
+{
+ display: flex;
+
+}
+#logo
+{
+    height: 40px;
+    float: left;
+    /* margin: 10px ; */
+    padding: 10px;
+    
+}
+li
+{
+    list-style-type: none;
+    color: black;
+    padding-left: 30px;
+    font-size: 12px;
+    
+}
+li:hover
+{
+   color: #d65129;
+}
+select
+{
+    border: none;
+}
+button
+{
+    margin-left: 50px;
+    margin-right: 10px;
+    align-items: center;
+    margin-top: 15px;
+    border-radius: 3px;
+}
+
+.singin
+{
+    border: none;
+    text-align: center;
+    padding: 5px 15px 5px 15px;
+    background-color: transparent;
+
+}
+.singin:hover
+{
+    border: 1px solid gray;
+}
+.free
+{
+   background-color: #ff4800;
+   border: none;
+   color: white;
+   padding: 5px 15px 5px 15px;
+   
+}
+.free:hover
+{
+    margin-top: 10px;
+}
+
+#search
+{
+    height: 12px;
+    padding-left: 44px;
+}
+#main1
+{
+    padding-top: 90px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+#topic
+{
+    font-size: 24;
+    line-height: 30px;
+}
+#cont
+{
+    margin-bottom: 10px;
+    font-size:14px;
+    
+}
+
+#sales
+{
+    height: 20px;
+    width: 20px;
+   float: left;
+   margin-top: 8px;
+
+}
+.title
+{
+    font-size: 24px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.para
+{
+    margin-right: 20px;
+    font-size: 14px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#main2
+{
+    background-color: #f4fcff;
+    width: 100%;
+    height: 700px;
+    
+   
+}
+
+#col1
+{
+
+    height: 500px ;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 5%;
+    width: 40%;
+    background-color: transparent;
+    float: left;
+    padding-left: 3% ;
+
+}
+
+#col2
+{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 7%;
+    height: 520px;
+    width: 40%;
+    background-color: white;
+    float: left;
+    padding-left: 3%;
+    padding-right: 3px;
+}
+#capicha
+{
+    height: 40px;
+}
+
+
+
+
+
+
+#main3
+{
+    width: 90%;
+    margin: 20px 10% 20px 10%;
+    min-height: 400px;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+
+
+
+h3
+{
+    text-align: center;
+    padding-top: 30px;
+}
+
+#main3_row1, #main3_row3, #main3_row2
+{
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 100px;
+    
+}
+
+
+
+#picrow2
+{
+    margin-top: 10px;
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+    float: left;
+    
+    margin-left: 100px;
+}
+
+label
+{
+    font-size: 13px;
+    padding-bottom: -5px;
+}
+
+#final
+{
+    font-size: 14px;
+}
+span{
+    color: #d65129;
+}
+#input
+{
+    padding-right: 500px ;
+}
+
+#submit
+{
+    background-color: #d65129;
+    color: white;
+    width:120px;
+    
+}
+#hq
+{
+    height: 100px;
+    width: 200px;
+}
+#place
+{
+    font-size: 8px;
+    text-align: center;
+
+}
+#adress
+{
+    font-size: 8px;
+    text-align: center;
+    margin: 1px;
+}
+
+#connect1
+{
+    font-size: 22px;
+    margin-top: 100px;
+    text-align: center;
+
+}
+#media
+{
+    list-style-type: none;
+    padding-left: 50px;
+    align-items: center;
+    margin-left: 32%;
+    
+
+}
+
+/* .social 
+{
+float: left;
+align-items: center;
+
+
+}
+.social img{
+    height: 30px;
+} */
+
+#connect2
+{
+    height: 80px;
+    margin-left: 36%;
+}
+
+
+#footer
+{
+    height: 210px;
+    width: 100%;
+    background-color:#110056 ;
+    margin-top:100px;
+   
+}
+
+#footer_col1
+{
+    width: 25%;
+    height: 100px;
+    background-color: transparent;
+    margin-left: 5%;
+    float: left;
+    
+   
+
+
+}
+
+#footer_col2
+{
+    width: 10%;
+    height: 100px;
+    background-color: transparent;
+    margin-left: 5%;
+    float: left;
+   
+
+
+}
+#footer_col3
+{
+    width: 10%;
+    height: 100px;
+    background-color: transparent;
+    margin-left: 5%;
+    float: left;
+   
+
+
+}
+#footer_col4
+{
+    width: 10%;
+    height: 100px;
+    background-color: transparent;
+    margin-left: 5%;
+    float: left;
+   
+
+
+}
+#footer_col5
+{
+    width: 10%;
+    height: 100px;
+    background-color: transparent;
+    margin-left: 5%;
+    float: left;
+   
+}
+
+
+#alt
+{
+    color: white;
+    font-size: 12px;
+    padding-top: 20px;
+    /* float: left; */
+    
+}
+#bold
+{
+    padding-top: 20px;
+    padding-left: 40px;
+    height: 40px;
+    width: 80px;
+    color: white;
+
+}
+#foot
+{
+    height: 50px;
+    width: 200px;
+}
+#alt:hover
+{
+    color:  #d65129;
+}
+#last
+{
+    height: 120px;
+    width: 100%;
+    background-color: #110056 ;
+    margin: 0.5px;
+}
+
+#lastcal1
+{
+    width: 25%;
+    height: 100px;
+    background-color: transparent;
+    margin-left: 5%;
+    float: left;
+    color: white;
+    font-size: 12px;
+    padding-top: 30px;
+}
+#lastcal2
+{
+    width: 10%;
+    height: 100px;
+    background-color: transparent;
+    margin-left: 5%;
+    float: left;
+    color: white;
+    font-size: 12px;
+    padding-top: 30px;
+   
+
+}
+#lastcal3
+{
+    width: 10%;
+    height: 100px;
+    background-color: transparent;
+    margin-left: 5%;
+    float: left;
+    color: white;
+    font-size: 12px;
+    padding-top: 30px;
+   
+   
+
+}
+#lastcal4
+{
+    width: 10%;
+    height: 100px;
+    background-color: transparent;
+    margin-left: 5%;
+    float: left;
+    color: white;
+    font-size: 12px;
+    padding-top: 30px;
+   
+}
+#lastcal5
+{
+    width: 10%;
+    height: 100px;
+    background-color: transparent;
+    margin-left: 5%;
+    float: left;
+    color: white;
+    font-size: 12px;
+    padding-top: 30px;
+   
+}
+.privacy
+{
+    margin-top: 10px;
+    color: white;
+    float: left;
+}
+.msg
+{
+    height: 40px;
+    float: right;
+    position: fixed;
+    width: 58px;
+    bottom: 20px;
+    z-index: 10000;
+    right: 17px;
+    cursor: pointer;
+    vertical-align: middle;
+    margin: auto;
+    /* position: fixed; */
+}
+
+#proect
+{
+    margin-bottom: 80px;
+}

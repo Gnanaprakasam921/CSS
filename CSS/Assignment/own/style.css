@@ -1,0 +1,131 @@
+.header
+{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+
+#icon
+{
+    height: 0px;
+    width: 50px;
+}
+
+#menu
+{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    display: inline;
+    float: left;
+    list-style-type: none;
+}
+select
+{
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    border: none;
+}
+li
+{
+    float: left;
+    padding-left: 50px;
+    font-size: 12px;
+    
+}
+#mid
+{
+    height: 100px;
+    width: 100%;
+    background-color: #e5e3df;
+}
+#Backgorund
+{
+    background-image: url("/Assignment/own/Image/moon.webp");
+    background-repeat: no-repeat;
+    height: 300px;
+   
+
+}
+#topic
+{
+
+    color: white;
+    text-align: center;
+}
+#title
+{
+    padding-top: 80px;
+    font-size: 25px;
+}
+#cont
+{
+    font-size: 12px;
+    padding-bottom: 20px;
+}
+hr
+{
+    
+    color: white;
+    width: 20%;
+}
+
+img
+{
+    margin-top: 20px;
+    height: 30px;
+    width: 30px;
+}
+
+#part3
+{
+    height: 300px;
+    width: 100%;
+    background-color: rgb(72, 69, 69);
+}
+
+#cal1
+{
+    height: 280px;
+    width: 30%;
+    float: left;
+    margin-top: 30px;
+    margin-left: 40px;
+    font-size: 12px;
+    text-align: justify;
+    color: black;
+    padding-left: 3%;
+}
+b
+{
+    color: white;
+}
+span{
+    color: orange;
+}
+#cal2 ,#cal3
+{
+    height: 280px;
+    width: 30%;
+    float: left;
+    font-size: 12px;
+    text-align: justify;
+    color: black;
+    padding-left: 3%;
+}
+input
+{
+    width: 100px;
+    font-size: 12px;
+}
+button
+{
+    background-color: orange;
+    border: none;
+    border-radius: 2px;
+    font-size: 10px;
+    padding: 3px 10px;
+    text-align: center;
+    border-left: 20px;
+    width: 110px;
+}
